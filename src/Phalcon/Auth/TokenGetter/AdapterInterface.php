@@ -1,9 +1,9 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth\TokenGetter;
+namespace EmoG\Phalcon\Auth\TokenGetter;
 
 /**
- * Dmkit\Phalcon\Auth\TokenGetter\TokenGetter.
+ * EmoG\Phalcon\Auth\TokenGetter\TokenGetter.
  */
 interface AdapterInterface
 {

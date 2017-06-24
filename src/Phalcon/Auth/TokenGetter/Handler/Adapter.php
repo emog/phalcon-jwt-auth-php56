@@ -1,12 +1,12 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth\TokenGetter\Handler;
+namespace EmoG\Phalcon\Auth\TokenGetter\Handler;
 
 use Phalcon\Http\RequestInterface;
-use Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface;
+use EmoG\Phalcon\Auth\TokenGetter\AdapterInterface;
 
 /**
- * Dmkit\Phalcon\Auth\TokenGetter\Handler\Adapter.
+ * EmoG\Phalcon\Auth\TokenGetter\Handler\Adapter.
  */
 abstract class Adapter implements AdapterInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth\TokenGetter\Handler;
+namespace EmoG\Phalcon\Auth\TokenGetter\Handler;
 
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\Adapter;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\Adapter;
 
 /**
- * Dmkit\Phalcon\Auth\TokenGetter\Handle\QueryStr.
+ * EmoG\Phalcon\Auth\TokenGetter\Handle\QueryStr.
  */
 class QueryStr extends Adapter {
 	// Query string key

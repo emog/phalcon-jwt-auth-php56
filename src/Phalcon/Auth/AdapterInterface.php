@@ -1,11 +1,11 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth;
+namespace EmoG\Phalcon\Auth;
 
-use Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
+use EmoG\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
 
 /**
- * Dmkit\Phalcon\Auth\AdapterInterface.
+ * EmoG\Phalcon\Auth\AdapterInterface.
  */
 interface AdapterInterface
 {
@@ -22,7 +22,7 @@ interface AdapterInterface
     /**
      * Checks and validates JWT.
      *
-     * @param Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface $parser
+     * @param EmoG\Phalcon\Auth\TokenGetter\AdapterInterface $parser
      * @param string $key
      *
      * @return bool

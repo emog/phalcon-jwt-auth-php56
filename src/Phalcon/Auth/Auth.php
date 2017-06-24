@@ -1,13 +1,13 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth;
+namespace EmoG\Phalcon\Auth;
 
 use Firebase\JWT\JWT;
-use Dmkit\Phalcon\Auth\Adapter;
-use Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
+use EmoG\Phalcon\Auth\Adapter;
+use EmoG\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
 
 /**
- * Dmkit\Phalcon\Auth\Auth.
+ * EmoG\Phalcon\Auth\Auth.
  */
 class Auth extends Adapter
 {
@@ -42,7 +42,7 @@ class Auth extends Adapter
      * Checks and validates JWT.
      * Calls the oncheck callbacks and pass self as parameter.
      *
-     * @param Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface $parser
+     * @param EmoG\Phalcon\Auth\TokenGetter\AdapterInterface $parser
      * @param string $key
      *
      * @return bool

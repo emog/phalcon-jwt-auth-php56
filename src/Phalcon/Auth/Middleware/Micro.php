@@ -1,17 +1,17 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth\Middleware;
+namespace EmoG\Phalcon\Auth\Middleware;
 
 use Phalcon\Mvc\Micro as MvcMicro;
 use Phalcon\Events\Event;
 use Phalcon\Events\Manager as EventsManager;
-use Dmkit\Phalcon\Auth\Auth;
-use Dmkit\Phalcon\Auth\TokenGetter\TokenGetter;
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\Header;
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\QueryStr;
+use EmoG\Phalcon\Auth\Auth;
+use EmoG\Phalcon\Auth\TokenGetter\TokenGetter;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\Header;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\QueryStr;
 
 /**
- * Dmkit\Phalcon\Auth\Middleware\Micro.
+ * EmoG\Phalcon\Auth\Middleware\Micro.
  * The concept of controllers doesn't exist in Micro apps
  * so checking of URLS and methods have to be done on the Request level.
  */

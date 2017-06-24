@@ -1,11 +1,11 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth\TokenGetter;
+namespace EmoG\Phalcon\Auth\TokenGetter;
 
-use Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface;
+use EmoG\Phalcon\Auth\TokenGetter\AdapterInterface;
 
 /**
- * Dmkit\Phalcon\Auth\TokenGetter\TokenGetter.
+ * EmoG\Phalcon\Auth\TokenGetter\TokenGetter.
  */
 class TokenGetter implements AdapterInterface
 {
@@ -15,7 +15,7 @@ class TokenGetter implements AdapterInterface
     /**
      * Sets getters.
      *
-     * @param Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface $getters
+     * @param EmoG\Phalcon\Auth\TokenGetter\AdapterInterface $getters
      */
     public function __construct(AdapterInterface ...$getters)
     {

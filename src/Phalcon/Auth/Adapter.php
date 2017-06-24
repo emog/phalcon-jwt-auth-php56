@@ -1,13 +1,13 @@
 <?php
 
-namespace Dmkit\Phalcon\Auth;
+namespace EmoG\Phalcon\Auth;
 
-use Dmkit\Phalcon\Auth\AdapterInterface;
+use EmoG\Phalcon\Auth\AdapterInterface;
 use Firebase\JWT\JWT;
-use Dmkit\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
+use EmoG\Phalcon\Auth\TokenGetter\AdapterInterface as TokenGetter;
 
 /**
- * Dmkit\Phalcon\Auth\Adapter.
+ * EmoG\Phalcon\Auth\Adapter.
  */
 abstract class Adapter implements AdapterInterface
 {
