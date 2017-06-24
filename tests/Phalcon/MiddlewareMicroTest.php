@@ -2,7 +2,7 @@
 
 use Phalcon\Mvc\Micro;
 use Phalcon\Di\FactoryDefault;
-use Dmkit\Phalcon\Auth\Middleware\Micro as AuthMicro;
+use EmoG\Phalcon\Auth\Middleware\Micro as AuthMicro;
 use Phalcon\Http\RequestInterface;
 use Phalcon\Events\Event;
 use Phalcon\Events\Manager as EventsManager;

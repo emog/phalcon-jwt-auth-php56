@@ -1,6 +1,6 @@
 <?php
 
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\QueryStr;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\QueryStr;
 use Phalcon\Http\RequestInterface;
 use PHPUnit\Framework\TestCase;
 

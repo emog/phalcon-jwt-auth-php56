@@ -1,9 +1,9 @@
 <?php
 
-use Dmkit\Phalcon\Auth\Auth;
-use Dmkit\Phalcon\Auth\TokenGetter\TokenGetter;
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\Header;
-use Dmkit\Phalcon\Auth\TokenGetter\Handler\QueryStr;
+use EmoG\Phalcon\Auth\Auth;
+use EmoG\Phalcon\Auth\TokenGetter\TokenGetter;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\Header;
+use EmoG\Phalcon\Auth\TokenGetter\Handler\QueryStr;
 use Phalcon\Http\RequestInterface;
 use PHPUnit\Framework\TestCase;
 use Firebase\JWT\JWT;
