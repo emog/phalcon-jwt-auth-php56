@@ -4,7 +4,7 @@ A simple JWT middleware for Phalcon Micro to handle stateless authentication.
 
 ## Installation
 ```
-composer require dmkit/phalcon-jwt-auth
+composer require emog/phalcon-jwt-auth
 ```
 or in your composer.json
 ```
