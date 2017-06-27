@@ -58,7 +58,7 @@ in bootstrap or index file
 use Phalcon\Mvc\Micro;
 use Phalcon\Config\Adapter\Ini as ConfigIni;
 use Phalcon\Di\FactoryDefault;
-use Dmkit\Phalcon\Auth\Middleware\Micro as AuthMicro;
+use EmoG\Phalcon\Auth\Middleware\Micro as AuthMicro;
 
 // set default services
 $di = new FactoryDefault();
@@ -89,7 +89,7 @@ in bootstrap or index file
 use Phalcon\Mvc\Micro;
 use Phalcon\Config\Adapter\Ini as ConfigIni;
 use Phalcon\Di\FactoryDefault;
-use Dmkit\Phalcon\Auth\Middleware\Micro as AuthMicro;
+use EmoG\Phalcon\Auth\Middleware\Micro as AuthMicro;
 
 // set default services
 $di = new FactoryDefault();
@@ -205,9 +205,9 @@ echo $this->auth->data('email');
 ### Extending
 If you want to add your own middleware or play around:
 ```
-Dmkit\Phalcon\Auth\Auth.php and its adapters - does all the authentication
+EmoG\Phalcon\Auth\Auth.php and its adapters - does all the authentication
 
-Dmkit\Phalcon\Auth\TokenGetter\TokenGetter.php and its adapters - does the parsing or getting of token
+EmoG\Phalcon\Auth\TokenGetter\TokenGetter.php and its adapters - does the parsing or getting of token
 ```
 
 ### JWT
