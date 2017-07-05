@@ -213,3 +213,7 @@ EmoG\Phalcon\Auth\TokenGetter\TokenGetter.php and its adapters - does the parsin
 ### JWT
 Phalcon JWT Auth uses the Firebase JWT library. To learn more about it and JSON Web Tokens in general, visit: https://github.com/firebase/php-jwt
 https://jwt.io/introduction/
+
+###
+If you are using php 7 you can use Dmkit version which is compatible
+https://github.com/dmkit/phalcon-jwt-auth
