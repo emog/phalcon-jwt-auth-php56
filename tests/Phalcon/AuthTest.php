@@ -20,6 +20,7 @@ class AuthTest extends TestCase
 
 	protected function setUp()
 	{
+        date_default_timezone_set('UTC');
 		$this->secretKey = 'secret key';
 
 		$this->options = [

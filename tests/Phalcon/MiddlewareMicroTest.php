@@ -34,7 +34,7 @@ class MiddlewareMicroTest extends TestCase
 			]
 		];
 
-		$config = new class{};
+		$config = new stdClass();
 		$config->jwtAuth = $this->config;
 
 		//  let's setup the DI config here
